@@ -30,4 +30,4 @@ const UserSchema = require("./database/schemas/User");
 app.use('/', initRoutes);
 app.use('/auth', authRoutes);
 
-app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server started on port ${PORT}, and is hosting.`));
