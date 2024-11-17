@@ -1,0 +1,1 @@
+print("Amonmgu us faggot");
