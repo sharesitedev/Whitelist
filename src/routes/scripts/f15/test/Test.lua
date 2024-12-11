@@ -1,0 +1,1 @@
+print("Flaming is a faggggg")
