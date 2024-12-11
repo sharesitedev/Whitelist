@@ -29,7 +29,7 @@ router.post("/:item", async (req, res) => {
     return res.status(401).send("User does not have the liscence.");
   }
 
-  if (req.body.key && req.body.id) {
+  if (req.body.file && req.body.id) {
     // return a json sayuing that the user is authenticated
     console.log("User authenticated.");
 
